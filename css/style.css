@@ -3,14 +3,21 @@ body{
     font-size: 20px;
     margin: 0px;
     padding: 0px;
-    background: #f4f4f4;
     text-align: center;
 }
 header,footer{
     background-color: #3baea0;
     color:   black;
     padding: 10px;
+}
+header:hover{
+    background-color: pink;
     border-radius: 40px;
+}
+footer:hover{
+    background-color: pink;
+    border-radius: 40px;
+
 }
 .main-banner{
     padding: 20px;
@@ -22,15 +29,12 @@ header,footer{
 .container{
     width: 60%;
     margin: auto;
-    background-color: white;
-    padding:  20%;
-    box-shadow: 0px 0px 10px gray;
+    padding: 10px;
 
 }
 .section{
     margin: 20px, 0;
     padding: 20px;
-    background-color:#3baea0;
     border-radius:  5px;
     box-shadow: 0px 0px 5px black;
 }
@@ -40,16 +44,12 @@ header,footer{
     border-radius: 50%;
 }
 .link-1{
-    display: flex;
-    justify-content: center;
     text-align: center;
     text-decoration: none;
     color: black;
     padding: 20px;
 }
 .link-2{
-    display: flex;
-    justify-content: center;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -57,10 +57,27 @@ header,footer{
     
 }
 .link-3{
-    display: flex;
-    justify-content: center;
     text-align: center;
     text-decoration: none;
     color: black;
     padding: 20px;
+}
+.link-1:hover{
+    background-color: tomato;
+    border-radius: 20px;
+    transition: 2s;
+}
+.link-3:hover{
+    background-color: tomato;
+    border-radius: 20px;
+    transition: 2s;
+}
+.link-2:hover{
+    background-color: tomato;
+    border-radius: 20px;
+    transition: 2s;
+}
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    
 }
